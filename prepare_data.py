@@ -50,7 +50,7 @@ def id_to_path(id):
         return id + S_EXTENSION[0]
 
 
-def prepare_speechfile(save_json_train="train.json", save_json_test="test.json", save_json_valid="dev.json"):
+def prepare_speechfile(save_json_train="data/train.json", save_json_test="data/test.json", save_json_valid="data/valid.json"):
 
     check_data()
 
